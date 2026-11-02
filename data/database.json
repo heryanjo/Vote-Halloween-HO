@@ -1,0 +1,201 @@
+{
+  "outlets": [
+    [
+      "BOPIK",
+      {
+        "code": "BOPIK",
+        "name": "Black Owl PIK",
+        "shortName": "PIK Golf Island",
+        "city": "Jakarta Utara",
+        "address": "Pantai Indah Kapuk, Jakarta Utara",
+        "votingActive": true,
+        "totalVotes": 0
+      }
+    ],
+    [
+      "BOKG",
+      {
+        "code": "BOKG",
+        "name": "Black Owl Kelapa Gading",
+        "shortName": "Kelapa Gading",
+        "city": "Jakarta Utara",
+        "address": "Jl. Boulevard Raya, Kelapa Gading, Jakarta Utara",
+        "votingActive": true,
+        "totalVotes": 0
+      }
+    ],
+    [
+      "BOGS",
+      {
+        "code": "BOGS",
+        "name": "Black Owl Gading Serpong",
+        "shortName": "Gading Serpong",
+        "city": "Tangerang",
+        "address": "Jl. Boulevard Il Lago, Gading Serpong, Tangerang",
+        "votingActive": true,
+        "totalVotes": 0
+      }
+    ],
+    [
+      "BOSCBD",
+      {
+        "code": "BOSCBD",
+        "name": "Black Owl SCBD",
+        "shortName": "SCBD Lot 8",
+        "city": "Jakarta Selatan",
+        "address": "Kawasan Sudirman Central Business District, Jakarta Selatan",
+        "votingActive": true,
+        "totalVotes": 0
+      }
+    ],
+    [
+      "BOSBY",
+      {
+        "code": "BOSBY",
+        "name": "Black Owl Surabaya",
+        "shortName": "Surabaya Kertajaya",
+        "city": "Surabaya",
+        "address": "Jl. Raya Kertajaya Indah, Surabaya",
+        "votingActive": true,
+        "totalVotes": 0
+      }
+    ],
+    [
+      "BOMDN",
+      {
+        "code": "BOMDN",
+        "name": "Black Owl Medan",
+        "shortName": "Medan Polonia",
+        "city": "Medan",
+        "address": "Jl. Imam Bonjol, Medan, Sumatera Utara",
+        "votingActive": true,
+        "totalVotes": 0
+      }
+    ],
+    [
+      "BOHO",
+      {
+        "code": "BOHO",
+        "name": "Black Owl Head Office",
+        "shortName": "Head Office",
+        "city": "Jakarta",
+        "address": "Black Owl Head Office, Jakarta",
+        "votingActive": true,
+        "totalVotes": 0
+      }
+    ]
+  ],
+  "contestants": [],
+  "votes": [],
+  "boundOutlets": [
+    [
+      "bca5739d641d8c19657403822559292fce3b12b9ddb3a33693ed298d9772b6b3",
+      "BOPIK"
+    ],
+    [
+      "54a7abc260493d79d061e44eb4e5d106619a3808f1d5a5ac9a9c535d5c7c7672",
+      "BOHO"
+    ]
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_1793600764261",
+      "timestamp": "2026-11-02T06:26:04.261Z",
+      "action": "CONTESTANT_DELETED",
+      "outletCode": "BOPIK",
+      "actor": "System Cleanup",
+      "details": "Permanently deleted contestant #01 - Test Upload Contestant (had 0 votes)."
+    },
+    {
+      "id": "audit_1793600722225",
+      "timestamp": "2026-11-02T06:25:22.225Z",
+      "action": "CONTESTANT_ADDED",
+      "outletCode": "BOPIK",
+      "actor": "Heryan Jojo",
+      "details": "Added contestant #01 - Test Upload Contestant (@testcostume)."
+    },
+    {
+      "id": "audit_1793595299025",
+      "timestamp": "2026-11-02T04:54:59.025Z",
+      "action": "CONTESTANT_DELETED",
+      "outletCode": "BOPIK",
+      "actor": "Admin Tester",
+      "details": "Permanently deleted contestant #01 - Real Contestant Test (had 0 votes)."
+    },
+    {
+      "id": "audit_1793595299024",
+      "timestamp": "2026-11-02T04:54:59.024Z",
+      "action": "CONTESTANT_ADDED",
+      "outletCode": "BOPIK",
+      "actor": "Admin Tester",
+      "details": "Added contestant #01 - Real Contestant Test (@test_ig)."
+    },
+    {
+      "id": "audit_1793595265635",
+      "timestamp": "2026-11-02T04:54:25.635Z",
+      "action": "SYSTEM_BOOT",
+      "outletCode": "BOHO",
+      "actor": "SYSTEM",
+      "details": "Semua data kontestan demo telah dihapus permanen. Database bersih dan siap menerima data riil."
+    }
+  ],
+  "staffUsers": [
+    {
+      "email": "heryanjojo@gmail.com",
+      "name": "Heryan Jojo",
+      "role": "SUPER_ADMIN"
+    },
+    {
+      "email": "superadmin@blackowl.id",
+      "name": "Black Owl Head of Events",
+      "role": "SUPER_ADMIN"
+    },
+    {
+      "email": "headoffice@blackowl.id",
+      "name": "Black Owl Head Office (HQ)",
+      "role": "SUPER_ADMIN"
+    },
+    {
+      "email": "admin.ho@blackowl.id",
+      "name": "Outlet Lead — Head Office",
+      "role": "OUTLET_ADMIN",
+      "assignedOutlet": "BOHO"
+    },
+    {
+      "email": "admin.pik@blackowl.id",
+      "name": "Outlet Lead — PIK",
+      "role": "OUTLET_ADMIN",
+      "assignedOutlet": "BOPIK"
+    },
+    {
+      "email": "admin.scbd@blackowl.id",
+      "name": "Outlet Lead — SCBD",
+      "role": "OUTLET_ADMIN",
+      "assignedOutlet": "BOSCBD"
+    },
+    {
+      "email": "admin.kg@blackowl.id",
+      "name": "Outlet Lead — Kelapa Gading",
+      "role": "OUTLET_ADMIN",
+      "assignedOutlet": "BOKG"
+    },
+    {
+      "email": "admin.gs@blackowl.id",
+      "name": "Outlet Lead — Gading Serpong",
+      "role": "OUTLET_ADMIN",
+      "assignedOutlet": "BOGS"
+    },
+    {
+      "email": "admin.sby@blackowl.id",
+      "name": "Outlet Lead — Surabaya",
+      "role": "OUTLET_ADMIN",
+      "assignedOutlet": "BOSBY"
+    },
+    {
+      "email": "admin.mdn@blackowl.id",
+      "name": "Outlet Lead — Medan",
+      "role": "OUTLET_ADMIN",
+      "assignedOutlet": "BOMDN"
+    }
+  ]
+}
